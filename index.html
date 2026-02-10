@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift | Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Encierra el contenido del encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid">
+                <a href="#"><h1>Taylor Swift</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./assets/cdindex.jpeg" alt="">
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link linksMenu" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link linksMenu" href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link linksMenu" href="./pages/tours.html">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link linksMenu" href="./pages/quienesomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link linksMenu" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Encierra el contenido especifico de un archivo -->
+    <main>
+        <!-- Etiqueta contenedora GENERICA -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade w-75">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./assets/imgbannerindex.jpg" class="d-block w-100" alt="texto descriptivo de cada imagen">
+                </div>
+                <div class="carousel-item">
+                <img src="./assets/cassette.jpeg" class="d-block w-100" alt="texto descriptivo de cada imagen">
+                </div>
+                <div class="carousel-item">
+                <img src="./assets/imgbannerindex.jpg" class="d-block w-100" alt="texto descriptivo de cada imagen">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Separar en temas el contenido especifico de un archivo -->
+        <section class="sectionIndexAlbum container">
+            <div class="row">
+                <h2 class="mt-5">The Life of a Showgirl</h2>
+            </div>
+            <!-- Anidar estructura de codigo que tienda a repetirse en un archivo -->
+            <div class="row justify-content-around mt-3 text-center">
+                <div class="card col-3">
+                    <img src="./assets/cassette.jpeg" class="card-img-top" alt="texto descriptivo">
+                    <div class="card-body">
+                        <h3 class="card-title">Cassette</h3>
+                        <p class="card-text">$20000</p>
+                        <a href="./pages/productos.html" class="btn botonCardsIndex">Ir a productos</a>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="./assets/cdindex.jpeg" class="card-img-top" alt="texto descriptivo">
+                    <div class="card-body">
+                        <h3 class="card-title">CD</h3>
+                        <p class="card-text">$20000</p>
+                        <a href="./pages/productos.html" class="btn botonCardsIndex">Ir a productos</a>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="./assets/viniloindex.jpeg" class="card-img-top" alt="texto descriptivo">
+                    <div class="card-body">
+                        <h3 class="card-title">Vinilo</h3>
+                        <p class="card-text">$20000</p>
+                        <a href="./pages/productos.html" class="btn botonCardsIndex">Ir a productos</a>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section class="contactoIndex">
+            <div class="textoContacto">
+                <p>Contactame</p>
+                <h2>A mi, la mejor artista de todos los tiempos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, corrupti autem? Consectetur earum animi voluptatem sequi eius? A ipsa dolor, et cum ab, minus reprehenderit consequatur magnam tempore veritatis voluptates?</p>
+            </div>
+            <div class="formularioIndex">
+                <form action="">
+                    <div class="nombrecompleto">
+                        <label for="">Full Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="emailytema">
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" name="" id="">
+                        </div>
+                        <div>
+                            <label for="">Subject</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="">Message</label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <input type="submit" value="">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de pagina de un archivo -->
+    <footer>
+        <form action="">
+            <label for="newsletter">Suscribite al newsletter</label>
+            <input type="email" name="newsletter" id="newsletter">
+            <input type="submit" class="boton">
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <p>Texto copyright bla bla bla</p>
+        </form>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
