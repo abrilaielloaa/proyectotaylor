@@ -1,0 +1,123 @@
+.grid-area1 {
+  grid-area: 1;
+}
+
+.grid-area2 {
+  grid-area: 2;
+}
+
+.grid-area3 {
+  grid-area: 3;
+}
+
+.grid-area4 {
+  grid-area: 4;
+}
+
+.grid-area5 {
+  grid-area: 5;
+}
+
+.grid-area6 {
+  grid-area: 6;
+}
+
+.grid-area7 {
+  grid-area: 7;
+}
+
+.grid-area8 {
+  grid-area: 8;
+}
+
+.grid-area9 {
+  grid-area: 9;
+}
+
+.grid-area10 {
+  grid-area: 10;
+}
+
+.grid-area11 {
+  grid-area: 11;
+}
+
+.grid-area12 {
+  grid-area: 12;
+}
+
+.grid-area13 {
+  grid-area: 13;
+}
+
+.grid-area14 {
+  grid-area: 14;
+}
+
+.grid-area15 {
+  grid-area: 15;
+}
+
+/*comentario css*/
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: red;
+}
+
+.twitter {
+  color: black;
+}
+
+header {
+  background-color: #f0fff6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #003514;
+}
+
+h1 {
+  color: black;
+  font-size: 5rem;
+  font-family: "lato" sans-serif;
+}
+
+p {
+  color: #e34949;
+  font-size: 3rem;
+  font-family: "poppins" sans-serif;
+}
+
+header {
+  background-color: red;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

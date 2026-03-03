@@ -1,0 +1,46 @@
+@use "sass:list";
+@use "sass:map";
+
+$color-titulos:#e34949;
+$color-fondos:#f0fff6;
+$color-detalles:#003514;
+$fuente-titulos: "poppins", sans-serif;
+$fuente-textosgenerales: "Lato", sans-serif;
+
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin texto ($color, $tamanio, $familia){
+    color: $color;
+    font-size: $tamanio;
+    font-family: $familia;
+}
+
+@for $i from 1 through 15{
+    .grid-area#{$i}{
+       grid-area: $i;
+    }
+}
+
+// $colores:pink, green, orange, blue, lightblue, hotpink, yellow;
+// @each $color in $colores{
+//     .#{$color}{
+//         color: $color;
+//     }
+// }
+/*comentario css*/
+$mapRedes:(
+    facebook:blue,
+    instagram:red,
+    twitter:black,
+);
+
+@each $red, $color in $mapRedes{
+    .#{$red}{
+        color: $color;
+    }
+}

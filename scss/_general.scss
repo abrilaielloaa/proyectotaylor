@@ -1,0 +1,19 @@
+@use "variables" as *;
+
+header{
+    background-color: $color-fondos;
+    @include flex(row, center, flex-end);
+}
+ul{
+    @include flex(row, flex-end, center);
+}
+footer{
+    @include flex(column, center, center);
+    color: $color-detalles
+}
+h1{
+    @include texto (black, 5rem, "lato" sans-serif)
+}
+p{
+    @include texto($color-titulos, 3rem, "poppins" sans-serif)
+}
